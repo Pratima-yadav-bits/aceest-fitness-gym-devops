@@ -1,4 +1,4 @@
-# ACEest Fitness & Gym API
+# Aceest Fitness & Gym API
 
 This repository contains a **Flask-based REST API** for a fitness and gym application, complete with **Docker support, automated testing, and CI/CD pipelines** via GitHub Actions and Jenkins.
 
