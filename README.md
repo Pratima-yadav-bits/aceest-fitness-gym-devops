@@ -13,6 +13,22 @@ This repository contains a **Flask-based REST API** for a fitness and gym applic
 
 ---
 
+## Version History
+
+### V1 – Initial Version
+- Implemented basic Flask application
+- Added core endpoints:
+  - /program
+  - /program/<name>
+- Established initial project structure
+### V2 – Feature Enhancement
+- Extended API with additional endpoints
+- Introduced BMI calculation feature
+- Integrated database for persistent storage
+- Enhanced overall application capabilities
+
+---
+
 ## Local Setup & Execution
 
 1. **Clone the repository**
@@ -75,6 +91,18 @@ Stages executed:
 | `/clients`        | GET    | Returns all clients in the database    |
 | `/add-client`     | POST   | Add a new client to the database       |
 | `/bmi`            | GET    | Calculate BMI based on height & weight |
+
+## VM Deployment Steps
+The application is deployed on a virtual machine (VM) environment using Docker and Python.
+1. The VM is accessed and the project directory is opened.
+2. The system environment is verified, ensuring Python and pip are available.
+3. Required dependencies such as Flask and other packages are installed.
+4. The application is containerized and executed using Docker.
+5. The running container is verified to ensure the application is active.
+6. The application endpoints are tested using terminal-based requests.
+7. All functionalities are validated within the VM environment.
+8. Unit test cases are executed using Pytest to confirm application stability.
+This process ensures that the application is successfully deployed and validated inside the VM.
 
 ## Notes
 Ensure Python 3.10+ is installed for local execution.
